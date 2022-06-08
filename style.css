@@ -2,3 +2,10 @@
     width: auto;
     height: 300px;
 }
+
+.cat {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
