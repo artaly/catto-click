@@ -1,16 +1,32 @@
 body {
     background-color: #E8B2A9;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.cat-close {
+#catto {
     width: auto;
     height: 300px;
 }
 
-.cat {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    width: 150px;
+    height: 70px;
+    font-size: 2em;
+    letter-spacing: 3px;
+    border: 3px solid #E0D0C6;
+    background-color: #fff;
+    color: #000;
+    margin-top: 40px;
+    user-select: none;
+    border-radius: 30px;
 }
